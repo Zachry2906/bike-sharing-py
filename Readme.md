@@ -10,6 +10,7 @@ This repository contains code for a Streamlit-based dashboard that allows users 
 
 ## 🔍 Dataset
 
+# Dicoding Collection Dashboard ✨
 The analysis uses the Bike Sharing Dataset, which can be found on Kaggle:
 [Bike Sharing Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
 
@@ -44,13 +45,19 @@ Follow these steps to set up the project locally:
    ```bash
    cd dashboard
    ```
+4. Setup Environment - Anaconda
+   ```bash
+   conda create --name main-ds python=3.9
+   conda activate main-ds
+   pip install -r requirements.txt
+   ```
 
-4. Launch the Streamlit application:
+5. Launch the Streamlit application:
    ```bash
    streamlit run dashboard.py
    ```
 
-5. To stop the application, use:
+6. To stop the application, use:
    ```bash
    ctrl + c
    ```
