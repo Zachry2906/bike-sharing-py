@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # Read the datasets
-day_df = pd.read_csv("../data/day.csv")
-hour_df = pd.read_csv("../data/hour.csv")
+day_df = pd.read_csv("data/day.csv")
+hour_df = pd.read_csv("data/hour.csv")
 
 # Convert date columns
 day_df["dteday"] = pd.to_datetime(day_df["dteday"])
