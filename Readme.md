@@ -1,48 +1,64 @@
-# Belajar Analisis Data dengan Python
-Proyek ini bertujuan untuk membuat dashboard interaktif yang menganalisis dan memvisualisasikan data kualitas udara yang memungkinkan pengguna untuk mengeksplorasi tren dan pola pencemaran dengan mudah
+# Bike Sharing Analysis Project 🚲
 
-# Noted
-This repository only use to deploy [Streamlit.app](https://vigia2906.streamlit.app/)
+A data analysis project focusing on creating an interactive dashboard to analyze and visualize bike sharing data patterns and trends.
 
-If you run in your pc, you should change the directory of read.csv(data)
+## 📌 Overview
 
-The zip file that I sent in the Dicoding project submission is code that can be run on a local computer.
+This repository contains code for a Streamlit-based dashboard that allows users to explore bike sharing data patterns. The live version of the dashboard can be accessed at [Streamlit.app](https://vigia2906.streamlit.app/).
 
-# Dataset
-Find the Bike Sharing Dataset in [Bike Sharing Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
+> **Note**: The repository is primarily used for deploying the Streamlit app. If running locally, you'll need to modify the data directory paths in the code. The complete runnable code for local execution is included in the Dicoding project submission zip file.
 
-## Setup environment
+## 🔍 Dataset
 
-- Install Visual Studio Code for Editor
-- Execute this command on command line (as administrator prefered)
+The analysis uses the Bike Sharing Dataset, which can be found on Kaggle:
+[Bike Sharing Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/bike-sharing-dataset)
 
-```
+## ⚙️ Setup Environment
+
+### Prerequisites
+- Visual Studio Code (or any preferred code editor)
+- Python 3.x
+
+### Required Libraries
+Install the following Python libraries by running this command in your terminal (administrator privileges recommended):
+
+```bash
 pip install numpy pandas scipy matplotlib seaborn jupyter streamlit
 ```
 
-## Project installation
+## 🚀 Installation Guide
 
-The steps to create your virtual environment from this project is as follows:
+Follow these steps to set up the project locally:
 
-1. Clone this repository
-
-   ```
+1. Clone the repository:
+   ```bash
    git clone https://github.com/Zachry2906/bike-sharing-py.git
    ```
 
-2. Move to directory bike-sharing-py/
-   ```
+2. Navigate to the project directory:
+   ```bash
    cd bike-sharing-py
    ```
-3. Move to directory dashboard/
-   ```
+
+3. Enter the dashboard directory:
+   ```bash
    cd dashboard
    ```
-5. Run streamlit app
-   ```
+
+4. Launch the Streamlit application:
+   ```bash
    streamlit run dashboard.py
    ```
-6. Stop the application in terminal by
-   ```
+
+5. To stop the application, use:
+   ```bash
    ctrl + c
    ```
+
+## 💡 Contributing
+
+Feel free to fork this repository and submit pull requests. You can also open issues for any bugs found or improvements suggested.
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
